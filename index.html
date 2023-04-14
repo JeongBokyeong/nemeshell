@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pocketmonX</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            width: 100%;
+            height: 100%;
+        }
+        .blue {
+            width: 100%;
+            height: 128px;
+            background: rgba(171, 169, 255, 0.4);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        #logo{
+            width: 100%;
+            height: 100%;
+        }
+        #yellow{
+            background: #FFFF7A;
+        }
+        #check{
+            margin: 4px;
+            width: 24px;
+            height: 24px;
+        }
+        .notification{
+            font-family: 400;
+            font-size: 20px;
+            display: flex;
+            height: 30px;
+        }
+        #pink{
+            background: rgba(255, 169, 169, 0.5);
+        }
+        .menu{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;  
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .menuItem{
+            width: 150px;
+            height: 80px;
+            border-radius: 15px;
+            padding: auto;
+            display: flex;
+            justify-content: space-evenly;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 32px;
+            display: flex;
+            margin: auto;
+            margin-left: 20px;
+            margin-right: 20px;
+           
+        }
+        #item1{
+            background: rgba(140, 186, 255, 0.5);
+        }
+        #item2{
+            background: rgba(140, 151, 255, 0.5);
+        }
+        #item3{
+            background: rgba(176, 140, 255, 0.5);
+        }
+        #item4{
+            background: rgba(225, 140, 255, 0.5);
+        }
+        .menuItem > a{
+            margin: auto;
+
+        }
+        #pocketmon{
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="blue">
+                <div class="logo">
+                    <img src="logo.png" alt="logo" id="logo">
+                </div>
+                <div class="menu">
+                    <div class="menuItem" id="item1"><a href="https://poketory.com/852">포케티어</a></div>
+                    <div class="menuItem" id="item2"><a href="https://www.pokemonstore.co.kr/">포케마켓</a></div>
+                    <div class="menuItem" id="item3"><a href="https://www.calculator.net/">계산기</a></div>
+                    <div class="menuItem" id="item4"><a href="#">로그인</a></div>
+                </div>
+            </div>
+            <div class="notification" id="yellow">
+                <img src="check.png" alt="check" id="check">
+                <div>(4/11) 포케티어 업데이트 완료!</div>
+            </div>
+            <div class="notification" id="pink">
+                <img src="check.png" alt="check" id="check">
+                <div>(4/14) 포케마켓이 공개되었습니다!</div>
+            </div>
+        </div>
+        <img src="pocketmon.png" alt="pocketmon" id="pocketmon">
+        <div class="tier">
+
+        </div>
+
+        <div class="marcket">
+
+        </div>
+
+    </div>
+</body>
+</html>
